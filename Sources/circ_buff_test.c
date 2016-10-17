@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "MKL25Z4.h"
-#include "uart.h"
-#include "circ.h"
+#include "../headers/MKL25Z4.h"
+#include "../headers/uart.h"
+#include "../headers/circ_buff_test.h"
+#include "../headers/circ.h"
 
 circbuff *cb;
 

@@ -1,10 +1,10 @@
-#include "MKL25Z4.h"
-#include "uart.h"
-#include "compiler_switch.h"
-#include "circ_buff_test.h"
-#include "circ.h"
-#include "rgb.h"
-#include "log.h"
+#include "../headers/MKL25Z4.h"
+#include "../headers/uart.h"
+#include "../headers/compiler_switch.h"
+#include "../headers/circ_buff_test.h"
+#include "../headers/circ.h"
+#include "../headers/rgb.h"
+#include "../headers/log.h"
 #define test_function 1
 
 int main(void)

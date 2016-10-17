@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "circ.h"
-#include "MKL25Z4.h"
+#include "../headers/circ.h"
+#include "../headers/MKL25Z4.h"
 
 uint8_t* buff_initialize(circbuff *buffer)
 {

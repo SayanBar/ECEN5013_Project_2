@@ -1,11 +1,6 @@
-/*
- * mcg.c
- *
- *  Created on: Oct 12, 2016
- *      Author: rohi2
- */
-#include "derivative.h"
-#include "mcg.h"
+
+#include "../headers/derivative.h"
+#include "../headers/mcg.h"
 
 // global variables
 extern int core_clk_khz;

@@ -1,14 +1,14 @@
-#include "MKL25Z4.h"
+#include "../headers/MKL25Z4.h"
 #include <math.h>
-#include "led.h"
-//#include "uart.c"
+#include "../headers/rgb.h"
+
 
 
 
 uint16_t  data=100;
 LED Color_Number=OFF;
 
-void uart_init()//uint32_t baudRate)
+void uart_init()
 {
 
 	uint16_t baud_divisor;
